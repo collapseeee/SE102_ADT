@@ -36,21 +36,27 @@ This repository contains Java implementations of various data structures and alg
 6. **Tutorial 6: Tree** *(Available as a PDF assignment)*
    - Covers tree structures, traversal techniques, and applications
 
-7. **Tutorial 7: Graph** *(Available as a PDF assignment)*
-   - Introduces graphs, adjacency lists, and common graph algorithms
+7. **Tutorial 7: Graph Adjacency List**
+   - `Main.java`: Handles user input and displays adjacency list
+   - `AdjacencyList.java`: Graph representation using HashMap
+   - Allows users to enter edges interactively and constructs an adjacency list
+   - Supports bidirectional edges and includes error handling for invalid inputs
 
 ### ADT Assignments
-- **Assignment 1: Vector & Stack Implementation**
-  - Implements Vector and Stack for data storage and retrieval
-  - Demonstrates push, pop, and search operations
-  
-- **Assignment 2: Queue & Linked List Implementation**
-  - Implements a custom queue and linked list
-  - Demonstrates enqueue, dequeue, insertion, and deletion
-  
-- **Assignment 3: Tree & Graph Implementation**
-  - Covers tree and graph concepts through Java implementation
-  - Demonstrates traversal, shortest path, and other graph operations
+- **Assignment 1: Sorting input file**
+  - `Program.java`: Main class to handle input file and perform sorting by call other class method
+  - `Sorting.java`: Class to perform quick sort
+  - `Student.java`: Class to create student object
+
+- **Assignment 2: Text counter**
+  - `Counter.java`: Class to perform character counting, emoticon counting, palindrome counting (using stack), line counting, and token counting
+  - `Main.java`: Main class to handle input file and track for total executed time
+
+- **Assignment 3: Infix to Postfix Convertor**
+  - `InfixToPostfixMain.java`: Main class to handle input file and printing output
+  - `Convertor.java`: Class to check if the given infix is valid then perform the conversion
+  - `Node.java`: Class for Stack implemented by Single Linked List
+  - `Stack.java`: Class for Stack
 
 ## Technologies Used
 - Java
@@ -60,6 +66,9 @@ This repository contains Java implementations of various data structures and alg
 - Linked List
 - Tree
 - Graph
+- Hash Table
+- AVL Tree
+- Graph Algorithms
 
 ## Author
 - **Nattikorn Sae-sue**
@@ -81,6 +90,8 @@ This repository contains Java implementations of various data structures and alg
 - Implement basic data structure operations
 - Practice problem-solving techniques
 - Gain hands-on experience with Java programming
+- Implement advanced data structures and algorithms
+- Optimize data structure performance for real-world applications
 
 ## License
 This project is part of an academic course and is for educational purposes.
